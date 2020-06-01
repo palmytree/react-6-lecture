@@ -1,5 +1,6 @@
 const products = require('../products.json')
 const delay = 3500
+// Set timeout gives more realistic 3.5 sec delay
 
 module.exports = {
   getAllProducts: (req, res) => {
